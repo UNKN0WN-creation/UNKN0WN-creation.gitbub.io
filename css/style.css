@@ -3,6 +3,16 @@
 padding:0;
 box-sizing:border-box;}
 
+img, iframe{max-width:100%;
+            height:auto;}
+
+.title{font-size:3rem;}
+
+@media(max-width:600px){.title{font-size:2rem;
+                               text-align:center;}
+                        p{font-size:1rem;
+                          padding:0 10px;}}
+
 body{margn:0;
 height:100vh;
 display:flex;
