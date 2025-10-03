@@ -3,6 +3,8 @@
 padding:0;
 box-sizing:border-box;}
 
+@media(max-width:600px){body{font-size:0.9rem;
+                             padding:1rem 0;}}
 body{margn:0;
 height:100vh;
 display:flex;
